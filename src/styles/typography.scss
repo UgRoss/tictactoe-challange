@@ -1,0 +1,39 @@
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font-family: $base-font-style;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $color-silver;
+}
+
+h1,
+.text-2xl {
+  font-size: $font-size-2xl;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+}
+
+h2,
+.text-xl {
+  font-size: $font-size-xl;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+h3,
+.text-lg {
+  font-size: $font-size-lg;
+  letter-spacing: 1.25px;
+  font-weight: bold;
+}
+
+h4,
+.text-md {
+  font-size: $font-size-md;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
